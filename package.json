@@ -1,0 +1,40 @@
+{
+  "name": "pretty-clean-code",
+  "version": "1.2.0",
+  "description": "Opinionated Prettier config for React, Next.js and Node projects",
+  "main": "index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": "./index.js",
+    "./next": "./next.js",
+    "./node": "./node.js"
+  },
+  "bin": {
+    "pretty-clean-code": "./cli.js"
+  },
+  "files": [
+    "index.js",
+    "next.js",
+    "node.js",
+    "cli.js",
+    "README.md"
+  ],
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "prettier-plugin",
+    "code-formatting",
+    "nextjs",
+    "react",
+    "node"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.0.0",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.5.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
